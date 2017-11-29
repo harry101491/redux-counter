@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { createStore } from "redux";
 import Counter from "./components/Counter";
 import reducer from "./reducer";
+import { incrementAction, decrementAction } from "./actions";
 
 // create the redux store
 const store = createStore(reducer);
