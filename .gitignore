@@ -1,0 +1,8 @@
+# node modules
+node_modules/
+
+# Editor specific files 
+.idea
+
+# Mac specific files
+.DS_Store
