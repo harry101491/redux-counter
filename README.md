@@ -1,4 +1,4 @@
-# Couter React Example using Redux Application 
+# Couter React Example using Redux
 
 A couter example using the redux architecture. Highly inspired by the redux examples. 
 
