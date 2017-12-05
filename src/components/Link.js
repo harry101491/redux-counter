@@ -10,7 +10,7 @@ class Link extends Component {
     render() {
         return ( 
             (this.props.active) ? 
-                (<span>{children}</span>) : 
+                (<span>{this.props.children}</span>) : 
                 (<a 
                     href="" 
                     onClick={ e => {
