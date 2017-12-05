@@ -16,7 +16,7 @@ class Link extends Component {
                 onClick={ e => {
                     e.preventDefault();
                     this.props.onClick();
-            }} >
+            }}>
                 { this.props.children }
             </a>)
         );
