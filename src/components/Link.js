@@ -10,16 +10,16 @@ class Link extends Component {
     render() {
         return ( 
             (this.props.active) ? 
-                (<span>{this.props.children}</span>) : 
-                (<a 
-                    href="" 
-                    onClick={ e => {
-                        e.preventDefault();
-                        this.props.onClick();
-                }} >
-                    { this.props.children }
-                </a>)
-            );
+            (<span>{this.props.children}</span>) : 
+            (<a 
+                href="" 
+                onClick={ e => {
+                    e.preventDefault();
+                    this.props.onClick();
+            }} >
+                { this.props.children }
+            </a>)
+        );
     }
 }
 
