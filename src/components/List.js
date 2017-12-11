@@ -7,7 +7,7 @@ class List extends Component {
     }
 
     render() {
-        const arr = [1, 2, 3, 4];
+        const arr = [1, 2, 3, 5, 6];
         const listElements = arr.map((value, index) => {
             return <li key={index}>{value}</li>;
         });
